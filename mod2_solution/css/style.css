@@ -1,0 +1,30 @@
+/**** BASE STYLING ****/
+
+html {
+	font-family: Helvetica, sans-serif;
+}
+h1 {
+	color: #cc0000;
+	text-align: center;
+}
+
+/**** DEVICES STYLING ****/
+
+@media (max-width: 767px) {
+
+} /* mobile device */
+
+@media (min-width: 768px) and (max-width: 991px){
+
+} /* tablet device */
+
+@media (min-width: 992px) {
+	body > section {
+		float: left;
+		width: 33.33%;
+	}
+
+	section > section {
+		
+	}
+} /* desktop device */
