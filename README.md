@@ -1,2 +1,2 @@
 # m2-assignment
-coursera html, css and javascpript module 2 assignment
+Repository used for my web page of the Module 2 Assignment on Coursera HTML, CSS and Javascript course by John Hopkins University.
