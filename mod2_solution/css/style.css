@@ -3,10 +3,37 @@
 html {
 	font-family: Helvetica, sans-serif;
 }
+
+* {
+	box-sizing: border-box;
+}
+
 h1 {
 	color: #cc0000;
 	text-align: center;
+	text-transform: uppercase;
 }
+
+h2 {
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-size: 20px;
+	padding: 8px;
+}
+
+section {
+	border-style: solid;
+	padding: 8px;
+	margin-bottom: 15px;
+}
+
+#Basterds {
+	background-color: #cc0000;
+	color: white;
+	border-left-color: black;
+	border-bottom-color: black;
+}
+
 
 /**** DEVICES STYLING ****/
 
@@ -15,6 +42,20 @@ h1 {
 } /* mobile device */
 
 @media (min-width: 768px) and (max-width: 991px){
+	#s1 {
+		float: left;
+		width: 50%;
+	}
+
+	#s2 {
+		float: left;
+		width: 50%;
+	}
+
+	#s3 {
+		float: left;
+		width: 100%;
+	}
 
 } /* tablet device */
 
@@ -22,9 +63,5 @@ h1 {
 	body > section {
 		float: left;
 		width: 33.33%;
-	}
-
-	section > section {
-		
 	}
 } /* desktop device */
