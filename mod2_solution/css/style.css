@@ -1,67 +1,110 @@
 /**** BASE STYLING ****/
 
 html {
-	font-family: Helvetica, sans-serif;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
 }
 
 * {
 	box-sizing: border-box;
+	font-size: 100%;
 }
 
 h1 {
 	color: #cc0000;
 	text-align: center;
 	text-transform: uppercase;
+	font-size: 175%;
 }
 
 h2 {
 	border-bottom-style: solid;
 	border-left-style: solid;
-	font-size: 20px;
+	border-width: 1px;
+	border-color: black;
+	font-size: 125%;
 	padding: 8px;
+	margin-top: 0px;
+	margin-right: 0px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 40%;
+}
+
+.row {
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 10px;
 }
 
 section {
 	border-style: solid;
-	padding: 8px;
+	border-width: 1px;
+	border-color: black;
+	padding: 15px;
 	margin-bottom: 15px;
+	position: relative;
+	background-color: #999999;
+	margin-right: 10px;
+}
+
+p {
+	position: relative;
+	top: 30px;
+	margin-bottom: 20px;
 }
 
 #Basterds {
 	background-color: #cc0000;
 	color: white;
-	border-left-color: black;
-	border-bottom-color: black;
+}
+
+#Django { 
+	background-color: #cca300;
+}
+
+#Hateful {
+	background-color: #99ccff;
 }
 
 
 /**** DEVICES STYLING ****/
 
-@media (max-width: 767px) {
 
-} /* mobile device */
+/**** TABLET DEVICE *****/
+
 
 @media (min-width: 768px) and (max-width: 991px){
-	#s1 {
+	#div1 {
 		float: left;
 		width: 50%;
 	}
 
-	#s2 {
+	#div2 {
 		float: left;
 		width: 50%;
 	}
 
-	#s3 {
+	#div3 {
 		float: left;
 		width: 100%;
 	}
 
-} /* tablet device */
+} 
+
+
+/***** DESKTOP DEVICE *****/
 
 @media (min-width: 992px) {
-	body > section {
+	div > section {
+		float: left;
+		/*width: 33.33%;*/
+	}
+
+	div > div {
 		float: left;
 		width: 33.33%;
 	}
-} /* desktop device */
+} 
