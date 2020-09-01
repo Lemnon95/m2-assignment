@@ -100,7 +100,6 @@ p {
 @media (min-width: 992px) {
 	div > section {
 		float: left;
-		/*width: 33.33%;*/
 	}
 
 	div > div {
