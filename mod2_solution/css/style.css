@@ -43,7 +43,7 @@ section {
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
-	padding: 15px;
+	padding: 25px;
 	margin-bottom: 15px;
 	position: relative;
 	background-color: #999999;
@@ -52,7 +52,7 @@ section {
 
 p {
 	position: relative;
-	top: 30px;
+	top: 40px;
 	margin-bottom: 20px;
 }
 
@@ -98,9 +98,6 @@ p {
 /***** DESKTOP DEVICE *****/
 
 @media (min-width: 992px) {
-	div > section {
-		float: left;
-	}
 
 	div > div {
 		float: left;
